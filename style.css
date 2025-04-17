@@ -1,0 +1,28 @@
+body{
+    background-color: #2b2b2b;
+    color: snow;
+    font-family: "Funnel Sans", sans-serif;
+}
+
+.container{
+    margin-top: 120px;
+    gap: 120px;
+    justify-content: center;
+    display: flex;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px #121212;
+    transition: 0.3s;
+}
+
+header{
+    text-align: center;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+/* #121212  #202020  #2b2b2b */
